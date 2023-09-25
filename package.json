@@ -1,0 +1,19 @@
+{
+  "name": "three-build",
+  "version": "1.0.0",
+  "description": "three.js构建工具,链式编程。",
+  "keywords":["three","animation","threeBuild"],
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jayden.... <810747370@qq.com>",
+  "license": "MIT",
+  "files": [
+    "src",
+    "threeUtils"
+  ],  
+  "dependencies": {
+    "three": "^0.156.1"
+  }
+}
