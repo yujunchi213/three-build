@@ -34,9 +34,9 @@ function init(dom){
     let renderConfig = renderOption();
     let cameraConfig = orthographicCameraOption()
     let orbitControlsConfig = orbitControlsOption();
+       //轨道动画 路径
     let track1 = keyframeTrackOption('VectorKeyframeTrack','zfx',"position",[0,1,2],[0,0,0,15,0,0,21,11,0,28,30,0]);
     let track2 = keyframeTrackOption('VectorKeyframeTrack','zfx',"scale",[0,1,2],[1,1,1,3,3,3,3,11,3,1,1,1]);
-    renderConfig.alpha = true;
     sceneConfig.background = 0x555555;
     cameraConfig.aspect = dom.offsetWidth/dom.offsetHeight;
     cameraConfig.x = 50;
